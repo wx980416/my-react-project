@@ -1,7 +1,5 @@
 import axios from 'axios';
-
-const BASE_URL = 'http://codercba.com:1888/airbnb/api';
-const TIMEOUT = 10000;
+import { BASE_URL, TIMEOUT } from './config';
 
 class WXRequest {
   constructor(baseURL, timeout) {

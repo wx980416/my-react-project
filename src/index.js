@@ -8,6 +8,7 @@ import '@/assets/css/index.less';
 import 'normalize.css';
 import store from './store';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Suspense fallback="loading">
