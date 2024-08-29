@@ -16,4 +16,8 @@ module.exports = {
       utils: resolve('src/utils'),
     },
   },
+  devServer: {
+    port: 3001,
+    open: false,
+  },
 };
