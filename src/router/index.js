@@ -1,8 +1,9 @@
+import Demo from "@/views/demo"
 import React from "react"
 import { Navigate } from "react-router-dom"
 
-// 懒加载
 const Home = React.lazy(() => import("@/views/home"))
+// import Home from "@/views/home"
 const Entire = React.lazy(() => import("@/views/entire"))
 const Detail = React.lazy(() => import("@/views/detail"))
 
@@ -22,6 +23,10 @@ const routes = [
   {
     path: "/detail",
     element: <Detail/>
+  },
+  {
+    path: "/demo",
+    element: <Demo/>
   }
 ]
 

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
   margin-top: 100px;
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid #EBEBEB;
 
   .wrapper {
     width: 1080px;
@@ -23,7 +23,7 @@ export const FooterWrapper = styled.div`
       }
 
       .list {
-        .item {
+        .iten {
           margin-top: 6px;
           color: #767676;
           cursor: pointer;
@@ -37,9 +37,9 @@ export const FooterWrapper = styled.div`
 
   .statement {
     margin-top: 30px;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #EBEBEB;
     padding: 20px;
     color: #767676;
     text-align: center;
   }
-`;
+`

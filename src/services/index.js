@@ -1,4 +1,4 @@
-import services from './request/index';
+import hyRequest from "./request"
 
-export default services;
-export * from './modules/home'
+export default hyRequest
+export * from "./modules/home"

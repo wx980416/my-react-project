@@ -1,9 +1,3 @@
-/**
- * 将样式字符串转换为对象
- *
- * @param styleStr 样式字符串
- * @returns 转换后的对象
- */
 function styleStrToObject(styleStr) {
   const obj = {}
   const s = styleStr.toLowerCase().replace(/-(.)/g, function (m, g) {
